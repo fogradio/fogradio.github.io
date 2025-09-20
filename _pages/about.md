@@ -30,6 +30,9 @@ selected_honors: |-
 
 I’m Hangwei Zhang (张航玮), a fourth-year undergraduate student in the School of Automation Science and Electrical Engineering at Beihang University (BUAA). I will receive my Bachelor of Engineering degree in Jun. 2026. From Sep. 2022 to Feb. 2024, I was an undergraduate in the School of Physics at BUAA, before I transferred to my current major. Before entering university in Sep. 2022, I studied at the Middle School Attached to Northwestern Polytechnical University in my hometown, Xi’an, Shaanxi Proviece.
 
+**<span style="color:red;">I am actively seeking a suitable PhD position for Fall 2026!!!</span>**
+
+
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
