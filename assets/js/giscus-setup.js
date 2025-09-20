@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "fogradio/hangweizhang.github.io",
+    "data-repo": "fogradio/fogradio.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
