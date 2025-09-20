@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://hangweizhang.github.io/sitemap.xml
+Sitemap: https://fogradio.github.io/sitemap.xml
