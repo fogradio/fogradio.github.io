@@ -40,26 +40,33 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    {% if page.experience %}
+      <h2>Experience</h2>
+      <div class="experience">{{ page.experience | markdownify }}</div>
+    {% endif %}
+
+    {% if page.research_interest %}
+      <h2>Research Interest</h2>
+      <div class="research-interest">{{ page.research_interest | markdownify }}</div>
+    {% endif %}
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
+    {% if page.selected_honors %}
+      <h2>Selected Honors and Awards</h2>
+      <div class="selected-honors">{{ page.selected_honors | markdownify }}</div>
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
