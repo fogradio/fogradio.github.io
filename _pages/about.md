@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
-  more_info: 
+  more_info: hangweizhang AT buaa.edu.cn
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -19,6 +19,26 @@ announcements:
   limit:  # leave blank to include all the news in the `_news` folder
 
 experience: |-
+  <div class="experience-card">
+    <div class="experience-image">
+      <img src="assets\img\nanyang-technological-university-logo.png" alt="NTU logo">
+    </div>
+    <div class="experience-details">
+      <div class="experience-title"><strong>Research Visiting Student</strong> <span>(Jul 2025 -- Present)</span></div>
+      <div class="experience-organization">MMLab, Nanyang Technological University</div>
+      <div class="experience-advisor">Advisor: <a href="https://xingangpan.github.io/">Prof. Xingang Pan</a></div>
+    </div>
+  </div>
+  <div class="experience-card">
+    <div class="experience-image">
+      <img src="assets\img\hkucrest_colour.png" alt="HKU logo">
+    </div>
+    <div class="experience-details">
+      <div class="experience-title"><strong>Remote Research Intern</strong> <span>(Mar 2025 -- Aug 2025)</span></div>
+      <div class="experience-organization">Department of Computer Science, The University of Hong Kong</div>
+      <div class="experience-advisor">Advisor: <a href="https://difanzou.github.io/">Prof. Difan Zou</a></div>
+    </div>
+  </div>
   <div class="experience-card">
     <div class="experience-image">
       <img src="/assets/img/Tsinghua_University_Logo.svg.png" alt="Tsinghua University logo">
@@ -36,7 +56,7 @@ experience: |-
     <div class="experience-details">
       <div class="experience-title"><strong>National Innovation Project Leader</strong> <span>(Jun 2023 – Nov 2024)</span></div>
       <div class="experience-organization">School of Mathematical Sciences, Beihang University</div>
-      <div class="experience-program">17th National Undergraduate Training Program for Innovation and Entrepreneurship</div>
+      <div class="experience-program">Excellent Project in 17th National Undergraduate Training Program for Innovation and Entrepreneurship</div>
       <div class="experience-advisor">Advisor: <a href="https://www.researchgate.net/profile/Guang-Mei-Wei">Prof. Guangmei Wei</a></div>
     </div>
   </div>
@@ -44,7 +64,13 @@ experience: |-
 
 
 research_interest: |-
-  - Summarize your primary research topics here.
+  My overall **research ambition** is to seek a principled **unity between AI and physics**. This vision spans three complementary aims:
+
+  * **Build models that understand, interact with, and generate the physical world**, closing the loop between perception, control, and synthesis.
+  * **Use mathematics and physical laws to analyze and guide model mechanisms**, turning theory into design principles for reliable and interpretable AI.
+  * **Apply AI to concrete problems across the physical sciences**, delivering methods that are accurate, data-efficient, and experimentally useful.
+
+  I currently focus on **Generative Models**, advancing their foundations and applications for high-fidelity, controllable, and physically grounded generation. I also have experience and interests in Scientific Machine Learning (SciML), AI4Physice, 3D Vision, Large Language Models (LLMs), Machine Learning Theory, and Reinforcement Learning (RL).
 
 selected_honors: |-
   - List recent honors or awards here.
