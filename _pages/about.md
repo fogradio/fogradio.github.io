@@ -19,7 +19,26 @@ announcements:
   limit:  # leave blank to include all the news in the `_news` folder
 
 experience: |-
-  - Add your recent roles and organizations here.
+  <div class="experience-entry">
+    <div class="experience-content">
+      <div class="experience-role"><strong>Research Intern</strong> (May 2024 - May 2025)</div>
+      <div class="experience-organization">Institute for AI Industry Research, Tsinghua University</div>
+      <div class="experience-advisor">Advisor: <a href="https://yanwang202199.github.io/">Prof. Yan Wang</a></div>
+    </div>
+    <div class="experience-logo">
+      <img src="/assets/img/Tsinghua_University_Logo.svg.png" alt="Tsinghua University logo">
+    </div>
+  </div>
+  <div class="experience-entry">
+    <div class="experience-content">
+      <div class="experience-role"><strong>National Innovation Project Leader</strong>, 17th National Undergraduate Training Program for Innovation and Entrepreneurship (Jun 2023 - Nov 2024)</div>
+      <div class="experience-organization">School of Mathematical Sciences, Beihang University</div>
+      <div class="experience-advisor">Advisor: <a href="https://www.researchgate.net/profile/Guang-Mei-Wei">Prof. Guangmei Wei</a></div>
+    </div>
+    <div class="experience-logo">
+      <img src="/assets/img/beihang.jpg" alt="Beihang University">
+    </div>
+  </div>
 
 research_interest: |-
   - Summarize your primary research topics here.
@@ -28,7 +47,7 @@ selected_honors: |-
   - List recent honors or awards here.
 ---
 
-I’m Hangwei Zhang (张航玮), a fourth-year undergraduate student in the School of Automation Science and Electrical Engineering at Beihang University (BUAA). I will receive my Bachelor of Engineering degree in Jun. 2026. From Sep. 2022 to Feb. 2024, I was an undergraduate in the School of Physics at BUAA, before I transferred to my current major. Before entering university in Sep. 2022, I studied at the Middle School Attached to Northwestern Polytechnical University in my hometown, Xi’an, Shaanxi Proviece.
+I’m **Hangwei Zhang (张航玮)**, a fourth-year undergraduate student in the School of Automation Science and Electrical Engineering at Beihang University (BUAA). I will receive my Bachelor of Engineering degree in Jun. 2026. Before major transfer, from Sep. 2022 to Feb. 2024, I was an undergraduate in the School of Physics at BUAA. Before entering university in Sep. 2022, I studied at the Middle School Attached to Northwestern Polytechnical University in my hometown, Xi’an, Shaanxi Proviece.
 
 **<span style="color:red;">I am actively seeking a suitable PhD position for Fall 2026!!!</span>**
 
