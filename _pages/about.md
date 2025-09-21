@@ -70,7 +70,7 @@ research_interest: |-
   * **Use mathematics and physical laws to analyze and guide model mechanisms**, turning theory into design principles for reliable and interpretable AI.
   * **Apply AI to concrete problems across the physical sciences**, delivering methods that are accurate, data-efficient, and experimentally useful.
 
-  I currently focus on **Generative Models**, advancing their foundations and applications for high-fidelity, controllable, and physically grounded generation. I also have experience and interests in Scientific Machine Learning (SciML), AI4Physice, 3D Vision, Large Language Models (LLMs), Machine Learning Theory, and Reinforcement Learning (RL).
+  I currently focus on **Generative Models**, advancing their foundations and applications for high-fidelity, controllable, and physically grounded generation. I also have experience and interests in Scientific Machine Learning (SciML), AI4Physics, 3D Vision, Large Language Models (LLMs), Machine Learning Theory, and Reinforcement Learning (RL).
 
 selected_honors: |-
   - List recent honors or awards here.
