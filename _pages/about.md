@@ -5,7 +5,7 @@ permalink: /
 subtitle: 
 
 profile:
-  align: right
+  align: left
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: hangweizhang AT buaa.edu.cn
@@ -21,7 +21,7 @@ announcements:
 experience: |-
   <div class="experience-card">
     <div class="experience-image">
-      <img src="assets\img\nanyang-technological-university-logo.png" alt="NTU logo">
+      <img src="/assets/img/nanyang-technological-university-logo.png" alt="NTU logo">
     </div>
     <div class="experience-details">
       <div class="experience-title"><strong>Research Visiting Student</strong> <span>(Jul 2025 -- Present)</span></div>
@@ -31,7 +31,7 @@ experience: |-
   </div>
   <div class="experience-card">
     <div class="experience-image">
-      <img src="assets\img\hkucrest_colour.png" alt="HKU logo">
+      <img src="/assets/img/hkucrest_colour.png" alt="HKU logo">
     </div>
     <div class="experience-details">
       <div class="experience-title"><strong>Remote Research Intern</strong> <span>(Mar 2025 -- Aug 2025)</span></div>
@@ -44,7 +44,7 @@ experience: |-
       <img src="/assets/img/Tsinghua_University_Logo.svg.png" alt="Tsinghua University logo">
     </div>
     <div class="experience-details">
-      <div class="experience-title"><strong>Research Intern</strong> <span>(May 2024 – May 2025)</span></div>
+      <div class="experience-title"><strong>Research Intern</strong> <span>(May 2024 - May 2025)</span></div>
       <div class="experience-organization">Institute for AI Industry Research, Tsinghua University</div>
       <div class="experience-advisor">Advisor: <a href="https://yanwang202199.github.io/">Prof. Yan Wang</a></div>
     </div>
@@ -54,7 +54,7 @@ experience: |-
       <img src="/assets/img/beihang.jpg" alt="Beihang University">
     </div>
     <div class="experience-details">
-      <div class="experience-title"><strong>National Innovation Project Leader</strong> <span>(Jun 2023 – Nov 2024)</span></div>
+      <div class="experience-title"><strong>National Innovation Project Leader</strong> <span>(Jun 2023 - Nov 2024)</span></div>
       <div class="experience-organization">School of Mathematical Sciences, Beihang University</div>
       <div class="experience-program">Excellent Project in 17th National Undergraduate Training Program for Innovation and Entrepreneurship</div>
       <div class="experience-advisor">Advisor: <a href="https://www.researchgate.net/profile/Guang-Mei-Wei">Prof. Guangmei Wei</a></div>
@@ -76,7 +76,7 @@ selected_honors: |-
   - List recent honors or awards here.
 ---
 
-I’m **Hangwei Zhang (张航玮)**, a fourth-year undergraduate student in the School of Automation Science and Electrical Engineering at Beihang University (BUAA). I will receive my Bachelor of Engineering degree in Jun. 2026. Before major transfer, from Sep. 2022 to Feb. 2024, I was an undergraduate in the School of Physics at BUAA. Before entering university in Sep. 2022, I studied at the Middle School Attached to Northwestern Polytechnical University in my hometown, Xi’an, Shaanxi Proviece.
+I'm **Hangwei Zhang (张航玮)**, a fourth-year undergraduate student in the School of Automation Science and Electrical Engineering at Beihang University (BUAA). I will receive my Bachelor of Engineering degree in Jun. 2026. Before major transfer, from Sep. 2022 to Feb. 2024, I was an undergraduate student in the School of Physics at BUAA. Before entering university in Sep. 2022, I studied at the Middle School Attached to Northwestern Polytechnical University in my hometown, Xi'an, Shaanxi Province.
 
 **<span style="color:red;">I am actively seeking a suitable PhD position for Fall 2026!!!</span>**
 

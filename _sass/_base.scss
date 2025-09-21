@@ -1502,3 +1502,60 @@ figure.cover {
     max-height: 72px;
   }
 }
+// About page layout adjustments
+.about-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.about-layout--right {
+  flex-direction: row-reverse;
+}
+
+.profile-column {
+  flex: 0 0 260px;
+  max-width: 260px;
+}
+
+.about-layout .profile {
+  width: 100%;
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  .about-layout .profile {
+    width: 100%;
+  }
+}
+
+.about-main {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.about-content {
+  margin-bottom: 1.5rem;
+}
+
+.about-content > :last-child {
+  margin-bottom: 0;
+}
+
+.about-main > h2:first-of-type {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .about-layout {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .profile-column {
+    flex: none;
+    max-width: none;
+    width: 100%;
+  }
+}
