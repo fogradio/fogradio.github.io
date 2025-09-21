@@ -19,26 +19,29 @@ announcements:
   limit:  # leave blank to include all the news in the `_news` folder
 
 experience: |-
-  <div class="experience-entry">
-    <div class="experience-content">
-      <div class="experience-role"><strong>Research Intern</strong> (May 2024 - May 2025)</div>
+  <div class="experience-card">
+    <div class="experience-image">
+      <img src="/assets/img/Tsinghua_University_Logo.svg.png" alt="Tsinghua University logo">
+    </div>
+    <div class="experience-details">
+      <div class="experience-title"><strong>Research Intern</strong> <span>(May 2024 – May 2025)</span></div>
       <div class="experience-organization">Institute for AI Industry Research, Tsinghua University</div>
       <div class="experience-advisor">Advisor: <a href="https://yanwang202199.github.io/">Prof. Yan Wang</a></div>
     </div>
-    <div class="experience-logo">
-      <img src="/assets/img/Tsinghua_University_Logo.svg.png" alt="Tsinghua University logo">
-    </div>
   </div>
-  <div class="experience-entry">
-    <div class="experience-content">
-      <div class="experience-role"><strong>National Innovation Project Leader</strong>, 17th National Undergraduate Training Program for Innovation and Entrepreneurship (Jun 2023 - Nov 2024)</div>
-      <div class="experience-organization">School of Mathematical Sciences, Beihang University</div>
-      <div class="experience-advisor">Advisor: <a href="https://www.researchgate.net/profile/Guang-Mei-Wei">Prof. Guangmei Wei</a></div>
-    </div>
-    <div class="experience-logo">
+  <div class="experience-card">
+    <div class="experience-image">
       <img src="/assets/img/beihang.jpg" alt="Beihang University">
     </div>
+    <div class="experience-details">
+      <div class="experience-title"><strong>National Innovation Project Leader</strong> <span>(Jun 2023 – Nov 2024)</span></div>
+      <div class="experience-organization">School of Mathematical Sciences, Beihang University</div>
+      <div class="experience-program">17th National Undergraduate Training Program for Innovation and Entrepreneurship</div>
+      <div class="experience-advisor">Advisor: <a href="https://www.researchgate.net/profile/Guang-Mei-Wei">Prof. Guangmei Wei</a></div>
+    </div>
   </div>
+
+
 
 research_interest: |-
   - Summarize your primary research topics here.
