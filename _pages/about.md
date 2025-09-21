@@ -34,8 +34,9 @@ experience: |-
       <img src="/assets/img/beihang.jpg" alt="Beihang University">
     </div>
     <div class="experience-details">
-      <div class="experience-title"><strong>National Innovation Project Leader</strong> <span> , 17th National Undergraduate Training Program for Innovation and Entrepreneurship (Jun 2023 – Nov 2024)</span></div>
+      <div class="experience-title"><strong>National Innovation Project Leader</strong> <span>(Jun 2023 – Nov 2024)</span></div>
       <div class="experience-organization">School of Mathematical Sciences, Beihang University</div>
+      <div class="experience-program">17th National Undergraduate Training Program for Innovation and Entrepreneurship</div>
       <div class="experience-advisor">Advisor: <a href="https://www.researchgate.net/profile/Guang-Mei-Wei">Prof. Guangmei Wei</a></div>
     </div>
   </div>
