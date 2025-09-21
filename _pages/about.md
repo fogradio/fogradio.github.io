@@ -73,7 +73,21 @@ research_interest: |-
   I currently focus on **Generative Models**, advancing their foundations and applications for high-fidelity, controllable, and physically grounded generation. I also have experience and interests in Scientific Machine Learning (SciML), AI4Physics, 3D Vision, Large Language Models (LLMs), Machine Learning Theory, and Reinforcement Learning (RL).
 
 selected_honors: |-
-  - List recent honors or awards here.
+  - **Short-Term Research Award**, Nanyang Technological University <span class="honor-year">(2025)</span>
+  - **Yuanhang Fund**, Beihang University <span class="honor-year">(2025)</span>
+  - **Merit Student**, Beihang University <span class="honor-year">(2024)</span>
+  - **Zhizhen Academy Academic Star Award**, Zhizhen Academy, Beihang University <span class="honor-year">(2024)</span>
+  - **BYD Undergraduate Scholarship**, BYD Company <span class="honor-year">(2024)</span>
+  - **First-Class Honor Scholarship for Academic Competition**, Beihang University (BUAA) <span class="honor-year">(2024)</span>
+  - **Award of Merit in SUMMER AIR 2024**, Institute for AI Industry Research, Tsinghua University <span class="honor-year">(2024)</span>
+  - **Excellent Project**, Committee of 17th National Undergraduate Training Program for Innovation and Entrepreneurship <span class="honor-year">(2024)</span>
+  - **Outstanding Student**, Beihang University <span class="honor-year">(2023)</span>
+  - **Special Scholarship for Academic Excellence**, Beihang University <span class="honor-year">(2023)</span>
+  - **National Scholarship**, Ministry of Education of the People’s Republic of China <span class="honor-year">(2023)</span>
+
+
+services: |-
+  **Academic Service**: Reviewer for **NeruIPS 2025 AI4Science Workshop**
 ---
 
 I'm **Hangwei Zhang (张航玮)**, a fourth-year undergraduate student in the School of Automation Science and Electrical Engineering at Beihang University (BUAA). I will receive my Bachelor of Engineering degree in Jun. 2026. Before major transfer, from Sep. 2022 to Feb. 2024, I was an undergraduate student in the School of Physics at BUAA. Before entering university in Sep. 2022, I studied at the Middle School Attached to Northwestern Polytechnical University in my hometown, Xi'an, Shaanxi Province.
@@ -88,3 +102,4 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 -->
+

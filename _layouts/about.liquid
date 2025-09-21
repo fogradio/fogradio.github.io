@@ -67,6 +67,11 @@ layout: default
         <div class="selected-honors">{{ page.selected_honors | markdownify }}</div>
       {% endif %}
 
+      {% if page.services %}
+        <h2>Services</h2>
+        <div class="services">{{ page.services | markdownify }}</div>
+      {% endif %}
+
       <!-- Selected papers -->
       {% if page.selected_papers %}
         <h2>
