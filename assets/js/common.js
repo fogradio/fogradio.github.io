@@ -1,7 +1,7 @@
 $(document).ready(function () {
   var previewRefreshTimer;
 
-  // Keep publication previews within 80%-100% of the corresponding entry height.
+  // Keep publication previews within roughly 60%-90% of the corresponding entry height.
   function adjustPublicationPreview(image) {
     var $image = $(image);
     if (!$image.length) {
@@ -17,7 +17,7 @@ $(document).ready(function () {
       return;
     }
 
-    var mainColumnEl = $row.find(".col-sm-9, .col-sm-10").get(0);
+    var mainColumnEl = $row.find(".col-sm-8, .col-sm-9, .col-sm-10").get(0);
     if (!mainColumnEl) {
       return;
     }
@@ -27,10 +27,10 @@ $(document).ready(function () {
       return;
     }
 
-    var minHeight = entryHeight * 0.8;
-    var maxHeight = entryHeight;
+    var minHeight = entryHeight * 0.6;
+    var maxHeight = entryHeight * 0.9;
 
-    var columnEl = $image.closest(".col-sm-3").get(0);
+    var columnEl = $image.closest(".col-sm-3, .col-sm-4").get(0);
     var columnWidth = columnEl
       ? columnEl.getBoundingClientRect().width
       : image.getBoundingClientRect().width;

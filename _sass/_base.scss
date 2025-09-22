@@ -1559,6 +1559,38 @@ figure.cover {
   }
 }
 
+.profile-social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.profile-social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--global-text-color);
+  transition: color 0.2s ease;
+}
+
+.profile-social-icons a:hover {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.profile-social-icons i {
+  font-size: 1.6rem;
+}
+
+.profile-social-icons svg,
+.profile-social-icons img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
 .about-main {
   flex: 1 1 0;
   min-width: 0;

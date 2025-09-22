@@ -37,6 +37,11 @@ layout: default
           {% if page.profile.more_info %}
             <div class="more-info">{{ page.profile.more_info }}</div>
           {% endif %}
+          {% if site.data.socials %}
+            <div class="profile-social-icons">
+              {% include social.liquid %}
+            </div>
+          {% endif %}
         </div>
       </aside>
     {% endif %}
@@ -90,10 +95,8 @@ layout: default
       {% endif %}
 
       <!-- Social -->
-      {% if page.social %}
+      {% if page.social and site.contact_note %}
         <div class="social">
-          <div class="contact-icons">{% include social.liquid %}</div>
-
           <div class="contact-note">{{ site.contact_note }}</div>
         </div>
       {% endif %}
@@ -104,5 +107,3 @@ layout: default
     </div>
   </article>
 </div>
-
-
