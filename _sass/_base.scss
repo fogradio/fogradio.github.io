@@ -736,6 +736,9 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
+        width: 100%;
+        max-width: 220px;
+        height: auto;
       }
 
       .abbr {

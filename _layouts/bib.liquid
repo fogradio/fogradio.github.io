@@ -2,7 +2,7 @@
 ---
 <div class="row">
   {% if site.enable_publication_thumbnails %}
-    <div class="col col-sm-2 abbr">
+    <div class="col col-sm-3 abbr">
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
@@ -34,7 +34,7 @@
             include figure.liquid
             loading="eager"
             path=entry_path
-            sizes = "200px"
+            sizes = "320px"
             class="preview z-depth-1 rounded"
             zoomable=true
             avoid_scaling=true
@@ -46,7 +46,7 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-9{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
@@ -194,6 +194,13 @@
       {% endif %}
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      {% endif %}
+      {% if entry.paper %}
+        {% if entry.paper contains '://' %}
+          <a href="{{ entry.paper }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
+        {% else %}
+          <a href="{{ entry.paper | relative_url }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
+        {% endif %}
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
