@@ -87,7 +87,7 @@ selected_honors: |-
 
 
 services: |-
-  **Academic Service**: Reviewer for **NeruIPS 2025 AI4Science Workshop**
+  **Academic Service**: Reviewer for **NeurIPS 2025 AI4Science Workshop**
 ---
 
 I'm **Hangwei Zhang (张航玮)**, a fourth-year undergraduate student in the School of Automation Science and Electrical Engineering at Beihang University (BUAA). I will receive my Bachelor of Engineering degree in Jun. 2026. Before major transfer, from Sep. 2022 to Feb. 2024, I was an undergraduate student in the School of Physics at BUAA. Before entering university in Sep. 2022, I studied at the Middle School Attached to Northwestern Polytechnical University in my hometown, Xi'an, Shaanxi Province.
