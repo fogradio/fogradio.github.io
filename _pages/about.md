@@ -73,6 +73,7 @@ research_interest: |-
   I currently focus on **Generative Models**, advancing their foundations and applications for high-fidelity, controllable, and physically grounded generation. I also have experience and interests in Scientific Machine Learning (SciML), AI4Physics, 3D Vision, Large Language Models (LLMs), Machine Learning Theory, and Reinforcement Learning (RL).
 
 selected_honors: |-
+  - **NeurIPS 2025 Scholar Award**, Neural Information Processing Foundation <span class="honor-year">(2025)</span>
   - **Short-Term Research Award**, Nanyang Technological University <span class="honor-year">(2025)</span>
   - **Yuanhang Fund**, Beihang University <span class="honor-year">(2025)</span>
   - **Merit Student**, Beihang University <span class="honor-year">(2024)</span>
