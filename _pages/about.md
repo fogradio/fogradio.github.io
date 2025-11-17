@@ -24,7 +24,7 @@ experience: |-
       <img src="/assets/img/nanyang-technological-university-logo.png" alt="NTU logo">
     </div>
     <div class="experience-details">
-      <div class="experience-title"><strong>Research Visiting Student</strong> <span>(Jul 2025 -- Present)</span></div>
+      <div class="experience-title"><strong>Research Visiting Student</strong> <span>(Jul 2025 -- Nov 2025)</span></div>
       <div class="experience-organization">MMLab, Nanyang Technological University</div>
       <div class="experience-advisor">Advisor: <a href="https://xingangpan.github.io/">Prof. Xingang Pan</a></div>
     </div>
