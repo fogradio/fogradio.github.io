@@ -202,6 +202,13 @@
           <a href="{{ entry.paper | relative_url }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
         {% endif %}
       {% endif %}
+      {% if entry.project %}
+        {% if entry.project contains '://' %}
+          <a href="{{ entry.project }}" class="btn btn-sm z-depth-0" role="button">PROJECT</a>
+        {% else %}
+          <a href="{{ entry.project | relative_url }}" class="btn btn-sm z-depth-0" role="button">PROJECT</a>
+        {% endif %}
+      {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
@@ -241,7 +248,11 @@
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
       {% endif %}
       {% if entry.code %}
-        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+        {% if entry.code contains '://' %}
+          <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">CODE</a>
+        {% else %}
+          <a href="{{ entry.code | relative_url }}" class="btn btn-sm z-depth-0" role="button">CODE</a>
+        {% endif %}
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
