@@ -26,7 +26,7 @@ experience: |-
     <div class="experience-details">
       <div class="experience-title"><strong>Research Intern</strong> <span>(Jan 2026 -- Present)</span></div>
       <div class="experience-organization">AMAP, Alibaba</div>
-      <div class="experience-advisor">Mentor: <a href="https://scholar.google.com/citations?hl=en&user=zCljkooAAAAJ&view_op=list_works&sortby=pubdate">Dr. Jiahong Wu</a></div>
+      <div class="experience-advisor">Mentor: <a href="https://scholar.google.com/citations?hl=en&user=zCljkooAAAAJ&view_op=list_works&sortby=pubdate">Dr. Jiahong Wu</a>, <a href="https://cxxgtxy.github.io">Dr. Xiangxiang Chu</a></div>
     </div>
   </div>
   <div class="experience-card">
@@ -102,9 +102,7 @@ services: |-
   **Conference Reviewer**: ICML (2026), NeurIPS AI4Science Workshop (2025), CPAL (2025).
 ---
 
-I'm **Hangwei Zhang (张航玮)**, a fourth-year undergraduate student in the School of Automation Science and Electrical Engineering at Beihang University (BUAA). I will receive my Bachelor of Engineering degree in Jun. 2026. Before major transfer, from Sep. 2022 to Feb. 2024, I was an undergraduate student in the School of Physics at BUAA. Before entering university in Sep. 2022, I studied at the Middle School Attached to Northwestern Polytechnical University in my hometown, Xi'an, Shaanxi Province.
-
-**<span style="color:red;">I am actively seeking a suitable PhD position for Fall 2026!!!</span>**
+I'm **Hangwei Zhang (张航玮)**,  an incoming PhD student supervised by Prof. [Chuanxia Zheng](https://physicalvision.github.io/people/~chuanxia) at [Physical Vision Group](https://physicalvision.github.io), College of Computing and Data Science (CCDS), Nanyang Technological University (NTU). I will receive my Bachelor of Engineering degree in Jun. 2026 from the School of Automation Science and Electrical Engineering at Beihang University (BUAA). Before major transfer, from Sep. 2022 to Feb. 2024, I was an undergraduate student in the School of Physics at BUAA. Before entering university in Sep. 2022, I studied at the Middle School Attached to Northwestern Polytechnical University in my hometown, Xi'an, Shaanxi Province.
 
 
 <!--
