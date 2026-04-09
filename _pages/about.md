@@ -99,7 +99,7 @@ selected_honors: |-
 
 
 services: |-
-  **Conference Reviewer**: ICML (2026), NeurIPS AI4Science Workshop (2025), CPAL (2025).
+  **Conference Reviewer**: NeurIPS (2026), ICML (2026), ICML AI4Science Workshop (2026), NeurIPS AI4Science Workshop (2025), CPAL (2025).
 ---
 
 I'm **Hangwei Zhang (张航玮)**,  an incoming PhD student supervised by Prof. [Chuanxia Zheng](https://physicalvision.github.io/people/~chuanxia) at [Physical Vision Group](https://physicalvision.github.io), College of Computing and Data Science (CCDS), Nanyang Technological University (NTU). I will receive my Bachelor of Engineering degree in Jun. 2026 from the School of Automation Science and Electrical Engineering at Beihang University (BUAA). Before major transfer, from Sep. 2022 to Feb. 2024, I was an undergraduate student in the School of Physics at BUAA. Before entering university in Sep. 2022, I studied at the Middle School Attached to Northwestern Polytechnical University in my hometown, Xi'an, Shaanxi Province.
