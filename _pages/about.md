@@ -8,7 +8,7 @@ profile:
   align: left
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
-  more_info: hangweizhang AT buaa.edu.cn
+  more_info: HZHANG093 AT e.ntu.edu.sg
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -83,6 +83,8 @@ research_interest: |-
   I currently focus on **Generative Models**, advancing their foundations and applications for high-fidelity, controllable, and physically grounded generation. I also have experience and interests in Scientific Machine Learning (SciML), AI4Physics, 3D Vision, Large Language Models (LLMs), Machine Learning Theory, and Reinforcement Learning (RL).
 
 selected_honors: |-
+  - **Beijing Outstanding Graduate Award**, Beijing Municipal Education Commission <span class="honor-year">(2026)</span>
+  - **ICML 2026 Gold Reviewer**, International Conference on Machine Learning (ICML) <span class="honor-year">(2026)</span>
   - **Model of Research Excellence**, School of Automation Science and Electrical Engineering, Beihang University <span class="honor-year">(2025)</span>
   - **NeurIPS 2025 Scholar Award**, Neural Information Processing Foundation <span class="honor-year">(2025)</span>
   - **Short-Term Research Award**, Nanyang Technological University <span class="honor-year">(2025)</span>
