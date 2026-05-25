@@ -1638,3 +1638,24 @@ figure.cover {
 .selected-honors .honor-year {
   color: var(--muted-text-color, #666);
 }
+
+// Fixed-height, vertically scrollable "News" card on the about/home page.
+.recent-news-scrollbox {
+  max-height: 260px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  background-color: var(--global-bg-color);
+
+  .table {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .recent-news-scrollbox {
+    max-height: 210px;
+  }
+}
