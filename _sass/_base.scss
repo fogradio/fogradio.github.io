@@ -759,7 +759,10 @@ footer.sticky-bottom {
         display: block;
         width: 100%;
         max-width: none;
+        aspect-ratio: 16 / 9;
         height: auto;
+        object-fit: contain;
+        background-color: var(--global-card-bg-color);
         margin: 0 auto;
       }
 
