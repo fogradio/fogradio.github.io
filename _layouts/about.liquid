@@ -21,34 +21,36 @@ layout: default
   {% endif %}
 
   <article class="about-layout about-layout--{{ profile_alignment }}">
-    {% if page.profile %}
-      <aside class="profile-column">
-        <div class="profile">
-          {% if page.profile.image %}
-            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-            {% if page.profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+    <div class="about-intro about-intro--{{ profile_alignment }}">
+      {% if page.profile %}
+        <aside class="profile-column">
+          <div class="profile">
+            {% if page.profile.image %}
+              {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+              {% if page.profile.image_circular %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+              {% else %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+              {% endif %}
+              {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+              {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
             {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
-          {% endif %}
-          {% if page.profile.more_info %}
-            <div class="more-info">{{ page.profile.more_info }}</div>
-          {% endif %}
-          {% if site.data.socials %}
-            <div class="profile-social-icons">
-              {% include social.liquid %}
-            </div>
-          {% endif %}
-        </div>
-      </aside>
-    {% endif %}
+            {% if page.profile.more_info %}
+              <div class="more-info">{{ page.profile.more_info }}</div>
+            {% endif %}
+            {% if site.data.socials %}
+              <div class="profile-social-icons">
+                {% include social.liquid %}
+              </div>
+            {% endif %}
+          </div>
+        </aside>
+      {% endif %}
+
+      <div class="about-content clearfix">{{ content }}</div>
+    </div>
 
     <div class="about-main">
-      <div class="about-content clearfix">{{ content }}</div>
-
       {% if page.experience %}
         <h2>Other Experience</h2>
         <div class="experience">{{ page.experience | markdownify }}</div>

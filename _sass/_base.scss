@@ -762,7 +762,6 @@ footer.sticky-bottom {
         aspect-ratio: 16 / 9;
         height: auto;
         object-fit: contain;
-        background-color: var(--global-card-bg-color);
         margin: 0 auto;
       }
 
@@ -1536,13 +1535,18 @@ figure.cover {
 }
 // About page layout adjustments
 .about-layout {
+  display: block;
+}
+
+.about-intro {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
   flex-wrap: nowrap;
+  margin-bottom: 1.5rem;
 }
 
-.about-layout--right {
+.about-intro--right {
   flex-direction: row-reverse;
 }
 
@@ -1595,27 +1599,12 @@ figure.cover {
 }
 
 .about-main {
-  flex: 1 1 0;
-  min-width: 0;
-}
-
-@media (min-width: 992px) {
-  .about-layout:not(.about-layout--right) .about-main .publications {
-    margin-left: calc(-1 * (260px + 2rem));
-    width: calc(100% + 260px + 2rem);
-    max-width: none;
-  }
-
-  .about-layout.about-layout--right .about-main .publications {
-    margin-left: 0;
-    margin-right: calc(-1 * (260px + 2rem));
-    width: calc(100% + 260px + 2rem);
-    max-width: none;
-  }
+  width: 100%;
 }
 
 .about-content {
-  margin-bottom: 1.5rem;
+  flex: 1 1 0;
+  min-width: 0;
 }
 
 .about-content > :last-child {
@@ -1627,7 +1616,7 @@ figure.cover {
 }
 
 @media (max-width: 768px) {
-  .about-layout {
+  .about-intro {
     flex-direction: column;
     gap: 1.5rem;
   }
