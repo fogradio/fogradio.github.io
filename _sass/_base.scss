@@ -1551,8 +1551,8 @@ figure.cover {
 }
 
 .profile-column {
-  flex: 0 0 260px;
-  max-width: 260px;
+  flex: 0 0 210px;
+  max-width: 210px;
 }
 
 .about-layout .profile {
@@ -1564,6 +1564,22 @@ figure.cover {
   .about-layout .profile {
     width: 100%;
   }
+}
+
+.about-layout .profile picture,
+.about-layout .profile figure {
+  width: 100%;
+  margin: 0;
+}
+
+.about-layout .profile picture img,
+.about-layout .profile figure img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 30%;
+  display: block;
 }
 
 .profile-social-icons {
@@ -1618,13 +1634,14 @@ figure.cover {
 @media (max-width: 768px) {
   .about-intro {
     flex-direction: column;
+    align-items: center;
     gap: 1.5rem;
   }
 
   .profile-column {
     flex: none;
-    max-width: none;
     width: 100%;
+    max-width: 240px;
   }
 }
 .selected-honors .honor-year {
