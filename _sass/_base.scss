@@ -761,7 +761,8 @@ footer.sticky-bottom {
         max-width: none;
         aspect-ratio: 16 / 9;
         height: auto;
-        object-fit: contain;
+        object-fit: cover;
+        object-position: center;
         margin: 0 auto;
       }
 
@@ -1541,7 +1542,7 @@ figure.cover {
 .about-intro {
   display: flex;
   gap: 2rem;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: nowrap;
   margin-bottom: 1.5rem;
 }
@@ -1570,6 +1571,8 @@ figure.cover {
 .about-layout .profile figure {
   width: 100%;
   margin: 0;
+  padding: 0;
+  display: block;
 }
 
 .about-layout .profile picture img,
@@ -1580,6 +1583,12 @@ figure.cover {
   object-fit: cover;
   object-position: center 30%;
   display: block;
+}
+
+.about-layout .profile .more-info,
+.about-layout .profile .profile-social-icons {
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .profile-social-icons {
@@ -1654,6 +1663,7 @@ figure.cover {
   overflow-y: auto;
   overflow-x: hidden;
   padding: 0.5rem 0.75rem;
+  margin-bottom: 2rem;
   border: 1px solid var(--global-divider-color);
   border-radius: 8px;
   background-color: var(--global-bg-color);
@@ -1661,6 +1671,11 @@ figure.cover {
   .table {
     margin-bottom: 0;
   }
+}
+
+.about-main h2 + .recent-news-scrollbox + h2,
+.recent-news-scrollbox + h2 {
+  margin-top: 2.25rem;
 }
 
 @media (max-width: 576px) {
