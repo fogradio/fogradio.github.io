@@ -758,11 +758,10 @@ footer.sticky-bottom {
       .preview {
         display: block;
         width: 100%;
-        max-width: none;
-        aspect-ratio: 16 / 9;
+        max-width: 100%;
         height: auto;
-        object-fit: cover;
-        object-position: center;
+        aspect-ratio: auto;
+        object-fit: contain;
         margin: 0 auto;
       }
 
@@ -1542,7 +1541,7 @@ figure.cover {
 .about-intro {
   display: flex;
   gap: 2rem;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: nowrap;
   margin-bottom: 1.5rem;
 }
@@ -1554,22 +1553,25 @@ figure.cover {
 .profile-column {
   flex: 0 0 210px;
   max-width: 210px;
+  min-width: 0;
 }
 
 .about-layout .profile {
-  width: 100%;
+  width: 210px;
+  max-width: 100%;
   margin: 0;
 }
 
 @media (min-width: 576px) {
   .about-layout .profile {
-    width: 100%;
+    width: 210px;
   }
 }
 
 .about-layout .profile picture,
 .about-layout .profile figure {
-  width: 100%;
+  width: 210px;
+  max-width: 100%;
   margin: 0;
   padding: 0;
   display: block;
@@ -1577,7 +1579,8 @@ figure.cover {
 
 .about-layout .profile picture img,
 .about-layout .profile figure img {
-  width: 100%;
+  width: 210px !important;
+  max-width: 100% !important;
   height: auto;
   aspect-ratio: 4 / 5;
   object-fit: cover;
@@ -1585,9 +1588,18 @@ figure.cover {
   display: block;
 }
 
-.about-layout .profile .more-info,
+.about-layout .profile .more-info {
+  width: 210px;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-size: 0.82rem;
+  white-space: nowrap;
+}
+
 .about-layout .profile .profile-social-icons {
-  width: 100%;
+  width: 210px;
+  max-width: 100%;
+  justify-content: space-between;
   box-sizing: border-box;
 }
 
