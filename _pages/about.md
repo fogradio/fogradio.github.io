@@ -24,7 +24,7 @@ experience: |-
       <img src="/assets/img/alibaba.png" alt="Alibaba logo">
     </div>
     <div class="experience-details">
-      <div class="experience-title"><strong>Research Intern</strong> <span>(Jan 2026 -- Present)</span></div>
+      <div class="experience-title"><strong>Research Intern</strong> <span>(Jan 2026 -- Jun 2026)</span></div>
       <div class="experience-organization">AMAP, Alibaba</div>
       <div class="experience-advisor">Mentor: <a href="https://scholar.google.com/citations?hl=en&user=zCljkooAAAAJ&view_op=list_works&sortby=pubdate">Jiahong Wu</a>, <a href="https://cxxgtxy.github.io">Xiangxiang Chu</a></div>
     </div>
@@ -83,6 +83,7 @@ research_interest: |-
   I currently focus on **Generative Models**, advancing their foundations and applications for high-fidelity, controllable, and physically grounded generation. I also have experience and interests in Scientific Machine Learning (SciML), AI4Physics, 3D Vision, Large Language Models (LLMs), Machine Learning Theory, and Reinforcement Learning (RL).
 
 selected_honors: |-
+  - **AISG PhD Fellowship**, AI Singapore <span class="honor-year">(2026)</span>
   - **Beijing Outstanding Graduate Award**, Beijing Municipal Education Commission <span class="honor-year">(2026)</span>
   - **ICML 2026 Gold Reviewer**, International Conference on Machine Learning (ICML) <span class="honor-year">(2026)</span>
   - **Model of Research Excellence**, School of Automation Science and Electrical Engineering, Beihang University <span class="honor-year">(2025)</span>
@@ -104,7 +105,7 @@ services: |-
   **Conference Reviewer**: NeurIPS (2026), ICML (2026), ICML AI4Science Workshop (2026), NeurIPS AI4Science Workshop (2025), CPAL (2025).
 ---
 
-I'm **Hangwei Zhang (张航玮)**,  an incoming PhD student supervised by Prof. [Chuanxia Zheng](https://physicalvision.github.io/people/~chuanxia) at [Physical Vision Group](https://physicalvision.github.io), College of Computing and Data Science (CCDS), Nanyang Technological University (NTU). I will receive my Bachelor of Engineering degree in Jun. 2026 from the School of Automation Science and Electrical Engineering at Beihang University (BUAA). Before major transfer, from Sep. 2022 to Feb. 2024, I was an undergraduate student in the School of Physics at BUAA. Before entering university in Sep. 2022, I studied at the Middle School Attached to Northwestern Polytechnical University in my hometown, Xi'an, Shaanxi Province.
+I'm **Hangwei Zhang (张航玮)**, an incoming PhD student at the College of Computing and Data Science (CCDS), Nanyang Technological University (NTU), funded by the [AISG PhD Fellowship](https://aisingapore.org/research/phd-fellowship-programme/). I am supervised by Prof. [Chuanxia Zheng](https://physicalvision.github.io/people/~chuanxia) at the [Physical Vision Group](https://physicalvision.github.io), and co-supervised by Prof. [Xingang Pan](https://xingangpan.github.io/index.html) at [MMLab](https://www.mmlab-ntu.com/index.html). I received my Bachelor of Engineering degree in Jun. 2026 from the School of Automation Science and Electrical Engineering at Beihang University (BUAA). Before major transfer, from Sep. 2022 to Feb. 2024, I was an undergraduate student in the School of Physics at BUAA. Before entering university in Sep. 2022, I studied at the Middle School Attached to Northwestern Polytechnical University in my hometown, Xi'an, Shaanxi Province.
 
 
 <!--
