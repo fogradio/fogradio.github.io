@@ -102,8 +102,8 @@ selected_honors: |-
 
 
 services: |-
-  **Conference Reviewer**: NeurIPS (2026), ICML (2026), ICML AI4Science Workshop (2026), NeurIPS AI4Science Workshop (2025), CPAL (2025).
-  **Journal Reviewer**: IEEE Transactions on Multimedia (TMM), Transactions on Machine Learning Research (TMLR).
+  - **Conference Reviewer**: NeurIPS (2026), ICML (2026), ICML AI4Science Workshop (2026), NeurIPS AI4Science Workshop (2025), CPAL (2025).
+  - **Journal Reviewer**: IEEE Transactions on Multimedia (TMM), Transactions on Machine Learning Research (TMLR).
 
 ---
 
