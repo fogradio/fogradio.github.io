@@ -24,7 +24,7 @@ experience: |-
       <img src="/assets/img/alibaba.png" alt="Alibaba logo">
     </div>
     <div class="experience-details">
-      <div class="experience-title"><strong>Research Intern</strong> <span>(Jan 2026 -- Jun 2026)</span></div>
+      <div class="experience-title"><strong>Research Intern</strong> <span>(Jan 2026 -- Aug 2026)</span></div>
       <div class="experience-organization">AMAP, Alibaba</div>
       <div class="experience-advisor">Mentor: <a href="https://scholar.google.com/citations?hl=en&user=zCljkooAAAAJ&view_op=list_works&sortby=pubdate">Jiahong Wu</a>, <a href="https://cxxgtxy.github.io">Xiangxiang Chu</a></div>
     </div>
