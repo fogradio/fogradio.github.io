@@ -83,6 +83,7 @@ research_interest: |-
   I currently focus on **Generative Models**, advancing their foundations and applications for high-fidelity, controllable, and physically grounded generation. I also have experience and interests in Scientific Machine Learning (SciML), AI4Physics, 3D Vision, Large Language Models (LLMs), Machine Learning Theory, and Reinforcement Learning (RL).
 
 selected_honors: |-
+  - **NeurIPS 2026 Top Reviewer**, Neural Information Processing Foundation <span class="honor-year">(2026)</span>
   - **AISG PhD Fellowship**, AI Singapore <span class="honor-year">(2026)</span>
   - **Beijing Outstanding Graduate Award**, Beijing Municipal Education Commission <span class="honor-year">(2026)</span>
   - **ICML 2026 Gold Reviewer**, International Conference on Machine Learning (ICML) <span class="honor-year">(2026)</span>
