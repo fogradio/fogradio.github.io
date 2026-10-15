@@ -82,6 +82,11 @@
   <script>
     initTheme();
   </script>
+{% else %}
+  <script>
+    // Shared page scripts still need a theme value when switching is disabled.
+    const determineComputedTheme = () => 'light';
+  </script>
 {% endif %}
 
 {% if page.map %}

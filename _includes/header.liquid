@@ -20,6 +20,12 @@
             {{- site.title -}}
           {% endif %}
         </a>
+      {% elsif page.layout == 'about' %}
+        <a class="navbar-brand home-wordmark" href="{{ '/' | relative_url }}" aria-label="{{ site.first_name }} {{ site.last_name }} home">
+          {{ site.first_name }}
+          {{ site.last_name -}}
+          <span class="wordmark-dot" aria-hidden="true">.</span>
+        </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
@@ -55,6 +61,10 @@
               {% endif %}
             </a>
           </li>
+
+          {% if page.layout == 'about' and page.research_interest %}
+            <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+          {% endif %}
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
@@ -117,6 +127,9 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          {% if page.layout == 'about' and page.experience %}
+            <li class="nav-item"><a class="nav-link" href="#experience">Other Experience</a></li>
+          {% endif %}
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">

@@ -2,21 +2,22 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
+name_native: 张航玮
+email: HZHANG093@e.ntu.edu.sg
 
 profile:
-  align: left
+  align: right
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: HZHANG093 AT e.ntu.edu.sg
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: true # includes contact and academic profile icons
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit:  # leave blank to include all the news in the `_news` folder
+  scrollable: true
+  limit: # show all news in the fixed-height scrollable panel
 
 experience: |-
   <div class="experience-card">
@@ -71,8 +72,6 @@ experience: |-
     </div>
   </div>
 
-
-
 research_interest: |-
   My overall **research ambition** is to seek a principled **unity between AI and physics**. This vision spans three complementary aims:
 
@@ -88,28 +87,27 @@ selected_honors: |-
   - **Beijing Outstanding Graduate Award**, Beijing Municipal Education Commission <span class="honor-year">(2026)</span>
   - **ICML 2026 Gold Reviewer**, International Conference on Machine Learning (ICML) <span class="honor-year">(2026)</span>
   - **Model of Research Excellence**, School of Automation Science and Electrical Engineering, Beihang University <span class="honor-year">(2025)</span>
+  - **BYD Undergraduate Scholarship**, BYD Company <span class="honor-year">(2024)</span>
+  - **Outstanding Student**, Beihang University <span class="honor-year">(2023)</span>
+  - **National Scholarship**, Ministry of Education of the People’s Republic of China <span class="honor-year">(2023)</span>
+
+additional_honors: |-
   - **NeurIPS 2025 Scholar Award**, Neural Information Processing Foundation <span class="honor-year">(2025)</span>
   - **Short-Term Research Award**, Nanyang Technological University <span class="honor-year">(2025)</span>
   - **Yuanhang Fund**, Beihang University <span class="honor-year">(2025)</span>
   - **Merit Student**, Beihang University <span class="honor-year">(2024)</span>
   - **Zhizhen Academy Academic Star Award**, Zhizhen Academy, Beihang University <span class="honor-year">(2024)</span>
-  - **BYD Undergraduate Scholarship**, BYD Company <span class="honor-year">(2024)</span>
   - **First-Class Honor Scholarship for Academic Competition**, Beihang University (BUAA) <span class="honor-year">(2024)</span>
   - **Award of Merit in SUMMER AIR 2024**, Institute for AI Industry Research, Tsinghua University <span class="honor-year">(2024)</span>
   - **Excellent Project**, Committee of 17th National Undergraduate Training Program for Innovation and Entrepreneurship <span class="honor-year">(2024)</span>
-  - **Outstanding Student**, Beihang University <span class="honor-year">(2023)</span>
   - **Special Scholarship for Academic Excellence**, Beihang University <span class="honor-year">(2023)</span>
-  - **National Scholarship**, Ministry of Education of the People’s Republic of China <span class="honor-year">(2023)</span>
-
 
 services: |-
-  - **Conference Reviewer**: ICLR(2027), AAAI (2027), NeurIPS (2026), ICML (2026), ICML AI4Science Workshop (2026), NeurIPS AI4Science Workshop (2025), CPAL (2025).
-  - **Journal Reviewer**: IEEE Transactions on Multimedia (TMM), Transactions on Machine Learning Research (TMLR), IEEE Transactions on Neural Networks and Learning Systems (TNNLS).
-
+  - **Conference Reviewer:** ICLR (2027), AAAI (2027), NeurIPS (2026), ICML (2026), ICML AI4Science Workshop (2026), NeurIPS AI4Science Workshop (2025), CPAL (2025).
+  - **Journal Reviewer:** IEEE Transactions on Multimedia (TMM), Transactions on Machine Learning Research (TMLR), IEEE Transactions on Neural Networks and Learning Systems (TNNLS).
 ---
 
-I'm **Hangwei Zhang (张航玮)**, a first-year PhD student at the College of Computing and Data Science (CCDS), Nanyang Technological University (NTU), funded by the [AISG PhD Fellowship](https://aisingapore.org/research/phd-fellowship-programme/). I am supervised by Prof. [Chuanxia Zheng](https://physicalvision.github.io/people/~chuanxia) at [Physical Vision Group](https://physicalvision.github.io). I received my Bachelor of Engineering degree in Jun. 2026 from the School of Automation Science and Electrical Engineering at Beihang University (BUAA). Before major transfer, from Sep. 2022 to Feb. 2024, I was an undergraduate student in the School of Physics at BUAA. Before entering university in Sep. 2022, I studied at the Middle School Attached to Northwestern Polytechnical University in my hometown, Xi'an, Shaanxi Province.
-
+I'm a first-year PhD student at the College of Computing and Data Science, **Nanyang Technological University**, supported by the [AISG PhD Fellowship](https://aisingapore.org/research/phd-fellowship-programme/). I am supervised by Prof. [Chuanxia Zheng](https://physicalvision.github.io/people/~chuanxia) at [Physical Vision Group](https://physicalvision.github.io). I received my Bachelor of Engineering degree in Jun. 2026 from the School of Automation Science and Electrical Engineering at **Beihang University** (BUAA). Before major transfer, from Sep. 2022 to Feb. 2024, I was an undergraduate student in the School of Physics at BUAA. Before entering university in Sep. 2022, I studied at the Middle School Attached to Northwestern Polytechnical University in my hometown, Xi’an, Shaanxi Province.
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

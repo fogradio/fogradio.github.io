@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was born. Hello World! :sparkles:
+I was born. Hello World! ✨

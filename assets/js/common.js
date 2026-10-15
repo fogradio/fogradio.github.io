@@ -1,4 +1,38 @@
 $(document).ready(function () {
+  // Close the mobile menu after navigating to a section on the home page.
+  $(".home-page #navbarNav a[href^='#']").on("click", function () {
+    var $menu = $("#navbarNav");
+    if ($menu.hasClass("collapsing") && $(".navbar-toggler").attr("aria-expanded") === "true") {
+      $menu.one("shown.bs.collapse", function () {
+        $menu.collapse("hide");
+      });
+    } else {
+      $menu.collapse("hide");
+    }
+  });
+
+  // Keep the linked map image visible until the third-party map actually renders.
+  var visitorMap = document.getElementById("visitor-map");
+  if (visitorMap) {
+    var mapFallback = visitorMap.querySelector(".visitor-map-fallback");
+    function revealVisitorMap() {
+      var map = visitorMap.querySelector("#mapmyvisitors-widget svg");
+      if (!map || !map.getBoundingClientRect().width) {
+        return false;
+      }
+      mapFallback.hidden = true;
+      return true;
+    }
+    if (!revealVisitorMap()) {
+      var mapObserver = new MutationObserver(function () {
+        if (revealVisitorMap()) {
+          mapObserver.disconnect();
+        }
+      });
+      mapObserver.observe(visitorMap, { childList: true, subtree: true, attributes: true, attributeFilter: ["width", "height", "style"] });
+    }
+  }
+
   var previewRefreshTimer;
 
   // Keep publication previews within roughly 60%-90% of the corresponding entry height.

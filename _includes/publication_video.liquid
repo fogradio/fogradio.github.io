@@ -1,0 +1,29 @@
+{% assign video_path = include.path %}
+{% unless video_path contains '://' %}
+  {% assign video_path = video_path | relative_url %}
+{% endunless %}
+{% assign video_ext = video_path | split: '?' | first | split: '.' | last | downcase %}
+{% assign video_type = video_ext %}
+{% if video_ext == 'ogv' %}{% assign video_type = 'ogg' %}{% endif %}
+{% if include.poster %}
+  {% assign video_poster = include.poster %}
+  {% unless video_poster contains '://' %}
+    {% assign video_poster = video_poster | prepend: '/assets/img/publication_preview/' | relative_url %}
+  {% endunless %}
+{% endif %}
+<video
+  class="preview publication-video"
+  {% if include.poster %}
+    poster="{{ video_poster }}"
+  {% endif %}
+  aria-label="Video preview: {{ include.title | escape }}"
+  autoplay
+  loop
+  muted
+  playsinline
+  controls
+  preload="metadata"
+>
+  <source src="{{ video_path }}" type="video/{{ video_type }}">
+  Your browser does not support embedded video.
+</video>

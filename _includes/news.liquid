@@ -3,6 +3,11 @@
     {% assign news_size = site.news | size %}
     <div
       class="table-responsive{% if include.limit and page.announcements.scrollable and news_size > 3 %} recent-news-scrollbox{% endif %}"
+      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
+        tabindex="0"
+        role="region"
+        aria-label="News, scroll for older updates"
+      {% endif %}
     >
       <table class="table table-sm table-borderless">
         {% assign news = site.news | sort: 'date' | reverse %}
