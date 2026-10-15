@@ -21,8 +21,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-was-born-hello-world-sparkles",
-          title: 'I was born. Hello World! :sparkles:',
+            },},{id: "news-i-was-born-hello-world",
+          title: 'I was born. Hello World! ✨',
           description: "",
           section: "News",},{id: "news-our-paper-f-adapter-frequency-adaptive-parameter-efficient-fine-tuning-in-scientific-machine-learning-has-been-accepted-to-neurips-2025",
           title: 'Our paper F-Adapter: Frequency-Adaptive Parameter-Efficient Fine-Tuning in Scientific Machine Learning has been accepted...',
@@ -84,30 +84,4 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+            },},];
